@@ -1,5 +1,3 @@
-import React from 'react'
-import CustomerCard from './customerCard'
 
 const Customer = () => {
   return (
@@ -9,7 +7,7 @@ const Customer = () => {
           OUR HAPPY CUSTOMERS
         </h1>
         <div>
-          <img src="/nextAndBack.png" alt="" />
+          <img src="home/nextAndBack.png" alt="" />
         </div>
       </div>
       <div className="flex gap-[20px] overflow-x-scroll overflow-y-hidden">
@@ -19,13 +17,13 @@ const Customer = () => {
           </div>
           <div className="flex gap-[10px]">
             <h1>Sarah M.</h1>
-            <img src="/tick.png" alt="" />
+            <img src="/home/tick.png" alt="" />
           </div>
           <div>
             <p className="leading-[22px] text-gray-500">
-              "I'm blown away by the quality and style of the clothes I received
+            &quot;I&apos;m blown away by the quality and style of the clothes I received
               from Shop.co. From casual wear to elegant dresses, every piece
-              I've bought has exceeded my expectations.”
+              I&apos;ve bought has exceeded my expectations.&quot;
             </p>
           </div>
         </div>
@@ -35,11 +33,11 @@ const Customer = () => {
           </div>
           <div className="flex gap-[10px]">
             <h1>Alex K.</h1>
-            <img src="/tick.png" alt="" />
+            <img src="/home/tick.png" alt="" />
           </div>
           <div>
             <p className="leading-[22px] text-gray-500">
-            "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”
+            &quot;Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.&quot;
             </p>
           </div>
         </div>
@@ -49,11 +47,11 @@ const Customer = () => {
           </div>
           <div className="flex gap-[10px]">
             <h1>James L.</h1>
-            <img src="/tick.png" alt="" />
+            <img src="/home/tick.png" alt="" />
           </div>
           <div>
             <p className="leading-[22px] text-gray-500">
-            "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”
+            &quot;As someone who&apos;s always on the lookout for unique fashion pieces, I&apos;m thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.&quot;
             </p>
           </div>
         </div>

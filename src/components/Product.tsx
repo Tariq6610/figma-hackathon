@@ -1,4 +1,3 @@
-import { log } from "console"
 import Link from "next/link"
 
 interface Props {
@@ -13,6 +12,7 @@ interface Props {
 }
 
 const ProductCard = ({name, percentOff = false, newPrice, oldPrice = false, stars, rating, image, id} : Props) => {  
+
     return (
    <>
     <div className='w-[270px] min-h-[350px] group shadow-lg '>
@@ -26,17 +26,17 @@ const ProductCard = ({name, percentOff = false, newPrice, oldPrice = false, star
                 <img src="/Frame 575.png" alt=""  className=''/>
             </div>
           <div className="absolute hidden group-hover:block bottom-0 w-full">
-          <Link href={`/products/${id}`}><button className="w-full h-[41px] bg-black text-white flex justify-center items-center">Add To Cart</button></Link>
+          <Link href={`/product/${id}`}><button className="w-full h-[41px] bg-black text-white flex justify-center items-center">Add To Cart</button></Link>
             </div>
         </div>
         <div className='flex flex-col gap-[8px]'>
             <p className="font-bold text-[18px]">{name}</p>
             <div className='w-[140px] h-[20px] flex gap-[8px]'>
-                <img className='object-contain' src={stars > 0 ? 'fullStar.png' : 'noStar.png'} alt="Star" />
-                <img className='object-contain' src={stars > 1 ? 'fullStar.png' : 'noStar.png'} alt="Star" />
-                <img className='object-contain' src={stars > 2 ? 'fullStar.png' : 'noStar.png'} alt="Star" />
-                <img className='object-contain' src={stars > 3 ? 'fullStar.png' : 'noStar.png'} alt="Star" />
-                <img className='object-contain' src={stars > 4 ? 'fullStar.png' : 'noStar.png'} alt="Star" />
+                <img className='object-contain' src={stars > 0 ? 'home/fullStar.png' : 'home/noStar.png'} alt="Star" />
+                <img className='object-contain' src={stars > 1 ? 'home/fullStar.png' : 'home/noStar.png'} alt="Star" />
+                <img className='object-contain' src={stars > 2 ? 'home/fullStar.png' : 'home/noStar.png'} alt="Star" />
+                <img className='object-contain' src={stars > 3 ? 'home/fullStar.png' : 'home/noStar.png'} alt="Star" />
+                <img className='object-contain' src={stars > 4 ? 'home/fullStar.png' : 'home/noStar.png'} alt="Star" />
                 <span className='text-gray-500 text-sm'>{rating}/5</span>
             </div>
             <div className='flex gap-[12px] items-center'><span className='text-[24px] font-bold'>{newPrice}</span>

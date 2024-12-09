@@ -3,7 +3,6 @@ import Customer from "@/components/Customer";
 import Hero from "@/components/Hero";
 import NewArrivals from "@/components/NewArrivals";
 import TopProducts from "@/components/TopProducts";
-import Uptodate from "@/components/Uptodate";
 
 
 export default function Home() {
@@ -14,7 +13,6 @@ export default function Home() {
     <TopProducts />
     <Brawse />
     <Customer />
-    <Uptodate />
     </>
   );
 }

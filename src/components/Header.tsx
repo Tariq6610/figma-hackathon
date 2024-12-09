@@ -1,4 +1,3 @@
-import { log } from 'console'
 import React from 'react'
 
 const Header = () => {
@@ -16,18 +15,20 @@ const Header = () => {
       <nav className='h-[38px] flex items-center justify-between max-w-[1440px] 2xl:px-[100px] xl:px-[50px] px-[30px]  mb-[24px]'>
         <div className='flex  gap-[40px] w-full justify-between  items-center'>
           <h1 className='text-[32px] font-extrabold tracking-tight'>SHOP.CO</h1>
-          <ul className='flex gap-[24px]'>
-            <li>Home</li>
-            <li>Contact</li>
-            <li>About</li>
-            <li>Sign Up</li>
+          <ul className='flex items-center gap-[24px]'>
+          <select className='' name="" id="">
+            <option value="English">Shop</option>
+          </select>
+            <li>On Sale</li>
+            <li>New Arrivals</li>
+            <li>Brands</li>
           </ul>
         <div className='flex gap-[24px] items-center '>
-          <input className='w-[577px] h-[48px] rounded-[48px] bg-[#F0F0F0] ps-[30px] border-none outline-none' type="text" placeholder='What are you looking for ?' name="" id="" />
+          <input className='2xl:w-[577px] w-[350px] h-[48px]  rounded-[48px] bg-[#F0F0F0] ps-[30px] border-none outline-none' type="text" placeholder='What are you looking for ?' name="" id="" />
           <div className='flex gap-[14px]'>
               <img className='w-[16px] h-[16px]' src="/search.png" alt="" />
-              <img src="/cart.png" alt="" />
-              <img src="/profile.png" alt="" />
+              <img src="home/cart.png" alt="" />
+              <img src="home/profile.png" alt="" />
           </div>
         </div>
         </div>
