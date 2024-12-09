@@ -2,7 +2,7 @@ import React from 'react'
 
 const Brawse = () => {
   return (
-    <div className='max-w-[1440px] 2xl:px-[100px] xl:px-[50px] px-[30px]'>
+    <div className='max-w-[1440px] 2xl:px-[100px] xl:px-[50px] px-[30px] '>
     <div className='bg-[#F0F0F0] px-[64px] flex flex-col items-center justify-center pb-[76px]'>
       <h1 className='font-bold text-[48px] tracking-tight mt-[70px] mb-[64px]'>BROWSE BY DRESS STYLE</h1>
       <div className='grid grid-cols-3 gap-[20px] w-full grid-rows-[289px_289px]'>

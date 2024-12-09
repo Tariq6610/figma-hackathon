@@ -12,7 +12,7 @@ const TopProducts = () => {
                 <ProductCard key={product.id} name={product.name} percentOff={product.percentOff} newPrice={product.newPrice} oldPrice={product.oldPrice} stars={product.stars} rating={product.rating} image={product.image} id={product.id}/>
             ))}
         </div>
-    <div className='flex justify-center mt-[36px]'>
+    <div className='flex justify-center mt-[36px] mb-[18px]'>
       <button className='w-[218px] border h-[52px]  flex justify-center items-center rounded-[62px]'> view All</button>
     </div>
     </div>
