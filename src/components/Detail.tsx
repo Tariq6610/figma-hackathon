@@ -2,6 +2,7 @@ import React from 'react'
 import { recomendedProducts } from './items'
 import ProductCard from './Product'
 import { allProducts } from './items'
+import Link from 'next/link'
 
 interface Props {
     id : number
@@ -16,18 +17,18 @@ const Detail = ({id} : Props) => {
 
     <div>
         <ul className='flex '>
-            <li className='flex gap-[4px] object-cover'>Home <img src="/home/bracket.png" alt="" /></li>
-            <li className='flex gap-[4px] object-cover'>Shop <img src="/home/bracket.png" alt="" /></li>
-            <li className='flex gap-[4px] object-cover'>Men <img src="/home/bracket.png" alt="" /></li>
-            <li className='flex gap-[4px] object-cover'>T-shirta </li>
+            <li className='flex gap-[4px] '>Home <img className='object-contain' src="/home/bracket.png" alt="" /></li>
+            <li className='flex gap-[4px] '>Shop <img className='object-contain' src="/home/bracket.png" alt="" /></li>
+            <li className='flex gap-[4px] '>Men <img className='object-contain' src="/home/bracket.png" alt="" /></li>
+            <li className='flex gap-[4px] '>T-shirta </li>
         </ul>
     </div>
     <div>
         <div className='h-[530px] flex gap-[14px]'>
             <div className='flex flex-col gap-[10px]'>
-                <div className='w-[152px] h-[167px] rounded-[20px]'><img className='h-full w-[full]' src={productClicked.image}alt="" /></div>
-                <div className='w-[152px] h-[167px] rounded-[20px]'><img className='h-full w-[full]' src={productClicked.image}alt="" /></div>
-                <div className='w-[152px] h-[167px] rounded-[20px]'><img className='h-full w-[full]' src={productClicked.image}alt="" /></div>
+                <div className='w-[152px] h-[167px] rounded-[20px]'><img className='h-full w-[full]' src={productClicked.image} alt="" /></div>
+                <div className='w-[152px] h-[167px] rounded-[20px]'><img className='h-full w-[full]' src={productClicked.image} alt="" /></div>
+                <div className='w-[152px] h-[167px] rounded-[20px]'><img className='h-full w-[full]' src={productClicked.image} alt="" /></div>
             </div>
             <div className='w-[444px] h-[99%] rounded-[20px]'>
             <img className='h-full w-[full]' src={productClicked.image}alt="" />
@@ -70,7 +71,7 @@ const Detail = ({id} : Props) => {
                     <p className='text-[20px]'>1</p>
                     <p className='text-[30px]'>+</p>
                 </div>
-                <div className='w-[400px] h-[52px] flex justify-center items-center rounded-full bg-black text-white'>Add to Cart</div>
+                <Link href='/cart'><div className='w-[400px] h-[52px] flex justify-center items-center rounded-full bg-black text-white'>Add to Cart</div></Link>
             </div>
         </div>
         </div>

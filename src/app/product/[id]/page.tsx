@@ -9,7 +9,6 @@ interface Props {
 }
 const page = ({params} : Props) => {
   const id = Number(params.id)
-  console.log("params =>", params);
   
   return (
   <Detail id={id} />

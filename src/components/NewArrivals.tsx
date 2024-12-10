@@ -1,6 +1,7 @@
 import React from 'react'
 import ProductCard from './Product'
 import { newProducts } from './items'
+import Link from 'next/link'
 
 const NewArrivals = () => {
   return (
@@ -13,7 +14,7 @@ const NewArrivals = () => {
             ))}
         </div>
     <div className='flex justify-center mt-[36px]'>
-      <button className='w-[218px] border h-[52px]  flex justify-center items-center rounded-[62px]'> view All</button>
+      <Link href='/category'><button className='w-[218px] border h-[52px]  flex justify-center items-center rounded-[62px]'> view All</button></Link>
     </div>
     </div>
     </>

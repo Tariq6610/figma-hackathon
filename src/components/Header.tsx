@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Header = () => {
@@ -27,7 +28,7 @@ const Header = () => {
           <input className='2xl:w-[577px] w-[350px] h-[48px]  rounded-[48px] bg-[#F0F0F0] ps-[30px] border-none outline-none' type="text" placeholder='What are you looking for ?' name="" id="" />
           <div className='flex gap-[14px]'>
               <img className='w-[16px] h-[16px]' src="/search.png" alt="" />
-              <img src="home/cart.png" alt="" />
+              <Link href='/cart'><img src="home/cart.png" alt="" /></Link>
               <img src="home/profile.png" alt="" />
           </div>
         </div>
