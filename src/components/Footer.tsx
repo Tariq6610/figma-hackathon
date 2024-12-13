@@ -2,18 +2,18 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='relative w-full flex items-end pb-[40px] justify-center bg-[#F0F0F0] h-[500px] mt-[170px]'>
+    <div className=' w-full relative pt-[100px] flex items-end pb-[40px] justify-center bg-[#F0F0F0] min-h-[500px] mt-[170px]'>
         <div className=' max-w-[1440px] flex flex-col 2xl:px-[100px] xl:px-[50px] px-[30px]'>
-        <div className=' h-[180px] absolute top-[-90px] w-[1150px] text-white rounded-[20px] bg-black flex items-center justify-between py-[36px] px-[64px]'>
-            <div className='w-1/2'>
+        <div className='absolute flex-wrap top-[-80px] left-1/2 -translate-x-1/2 w-[93%] max-w-[1150px] min-h-[180px] text-white rounded-[20px] bg-black flex items-center justify-center lg:justify-between py-[36px] gap-y-4 px-[30px] xl:px-[64px]'>
+            <div className='md:w-1/2 w-full'>
                 <h1 className='font-bold text-[40px] leading-[45px] tracking-tight'>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
             </div>
             <div className='flex flex-col gap-[14px] ]'>
-                <input className='px-[20px] h-[48px] w-[349px] rounded-[62px] outline-none border-none' placeholder='Enter Your email address' type="text" name="" id="" />
-                <button className='h-[48px] w-[349px] rounded-[62px] border-none bg-white text-black'>Subscribe to Newsletter</button>
+                <input className='px-[20px] h-[48px] md:w-[349px] w-[99%] rounded-[62px] outline-none border-none' placeholder='Enter Your email address' type="text" name="" id="" />
+                <button className='h-[48px] md:w-[349px] rounded-[62px] border-none bg-white text-black'>Subscribe to Newsletter</button>
             </div>
         </div>
-        <div className='flex gap-[113.5px]'>
+        <div className='flex gap-[113.5px] mb-6 flex-wrap mt-[200px] md:mt-[150px] lg:mt-[100px] xl:mt-0'>
             <div className='flex flex-col gap-[25px] w-[248px]'>
             <h1 className='text-[32px] font-extrabold tracking-tight'>SHOP.CO</h1>
             <p className='font-normal text-[14px]'>We have clothes that suits your style and which you&apos;re proud to wear. From women to men.</p>
@@ -53,7 +53,7 @@ const Footer = () => {
                 <p className='text-gray-600'>Youtube Playlist</p>
             </div>
         </div>
-    <hr className='mt-[50px]'/>
+    <hr className=' -rotate-1'/>
     <div className='flex justify-between items-center'>
     <p className='text-[14px] text-gray-600 mt-[25px]'>© 2000-2021, All rights reserved</p>
     <img src="home/Frame 53.png" alt="" />

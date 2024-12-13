@@ -1,7 +1,7 @@
 
 const Customer = () => {
   return (
-    <div className="max-w-[1440px] 2xl:px-[100px] xl:px-[50px] px-[30px] mt-[80px] mb-[80px]">
+    <div className="max-w-[1440px] 2xl:px-[100px] mx-auto xl:px-[50px] px-[30px] mt-[80px] mb-[80px]">
       <div className="flex justify-between items-center mb-[40px]">
         <h1 className="font-bold text-[48px] tracking-tight">
           OUR HAPPY CUSTOMERS
@@ -13,11 +13,11 @@ const Customer = () => {
       <div className="flex gap-[20px] overflow-x-scroll overflow-y-hidden">
         <div className="w-[400px] border flex flex-col gap-[15px] h-[240px] px-[32px] py-[28px]">
           <div>
-            <img src="/Frame 10.png" alt="" />
+            <img className="object-contain" src="/Frame 10.png" alt="" />
           </div>
           <div className="flex gap-[10px]">
             <h1>Sarah M.</h1>
-            <img src="/home/tick.png" alt="" />
+            <img className="object-contain" src="/home/tick.png" alt="" />
           </div>
           <div>
             <p className="leading-[22px] text-gray-500">
@@ -29,11 +29,11 @@ const Customer = () => {
         </div>
         <div className="w-[400px] border flex flex-col gap-[15px] h-[240px] px-[32px] py-[28px]">
           <div>
-            <img src="/Frame 10.png" alt="" />
+            <img className="object-contain" src="/Frame 10.png" alt="" />
           </div>
           <div className="flex gap-[10px]">
             <h1>Alex K.</h1>
-            <img src="/home/tick.png" alt="" />
+            <img className="object-contain" src="/home/tick.png" alt="" />
           </div>
           <div>
             <p className="leading-[22px] text-gray-500">
@@ -43,11 +43,11 @@ const Customer = () => {
         </div>
         <div className="w-[400px] border flex flex-col gap-[15px] h-[240px] px-[32px] py-[28px]">
           <div>
-            <img src="/Frame 10.png" alt="" />
+            <img className="object-contain" src="/Frame 10.png" alt="" />
           </div>
           <div className="flex gap-[10px]">
             <h1>James L.</h1>
-            <img src="/home/tick.png" alt="" />
+            <img className="object-contain" src="/home/tick.png" alt="" />
           </div>
           <div>
             <p className="leading-[22px] text-gray-500">
