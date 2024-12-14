@@ -32,11 +32,11 @@ const ProductCard = ({name, percentOff = false, newPrice, oldPrice = false, star
         <div className='flex flex-col gap-[8px]'>
             <p className="font-bold text-[18px]">{name}</p>
             <div className='w-[140px] h-[20px] flex gap-[8px]'>
-                <img className='object-contain' src={stars > 0 ? 'home/fullStar.png' : 'home/noStar.png'} alt="Star" />
-                <img className='object-contain' src={stars > 1 ? 'home/fullStar.png' : 'home/noStar.png'} alt="Star" />
-                <img className='object-contain' src={stars > 2 ? 'home/fullStar.png' : 'home/noStar.png'} alt="Star" />
-                <img className='object-contain' src={stars > 3 ? 'home/fullStar.png' : 'home/noStar.png'} alt="Star" />
-                <img className='object-contain' src={stars > 4 ? 'home/fullStar.png' : 'home/noStar.png'} alt="Star" />
+                <img className='object-contain' src={stars > 0 ? '/home/fullStar.png' : '/home/noStar.png'} alt="Star" />
+                <img className='object-contain' src={stars > 1 ? '/home/fullStar.png' : '/home/noStar.png'} alt="Star" />
+                <img className='object-contain' src={stars > 2 ? '/home/fullStar.png' : '/home/noStar.png'} alt="Star" />
+                <img className='object-contain' src={stars > 3 ? '/home/fullStar.png' : '/home/noStar.png'} alt="Star" />
+                <img className='object-contain' src={stars > 4 ? '/home/fullStar.png' : '/home/noStar.png'} alt="Star" />
                 <span className='text-gray-500 text-sm'>{rating}/5</span>
             </div>
             <div className='flex gap-[12px] items-center'><span className='text-[24px] font-bold'>{newPrice}</span>

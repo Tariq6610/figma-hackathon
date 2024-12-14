@@ -54,7 +54,7 @@ const Footer = () => {
             </div>
         </div>
     <hr className=' -rotate-1'/>
-    <div className='flex justify-between items-center'>
+    <div className='flex flex-wrap justify-between items-center'>
     <p className='text-[14px] text-gray-600 mt-[25px]'>© 2000-2021, All rights reserved</p>
     <img src="home/Frame 53.png" alt="" />
     </div>
