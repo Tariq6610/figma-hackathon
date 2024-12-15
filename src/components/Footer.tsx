@@ -13,7 +13,7 @@ const Footer = () => {
                 <button className='h-[48px] md:w-[349px] rounded-[62px] border-none bg-white text-black'>Subscribe to Newsletter</button>
             </div>
         </div>
-        <div className='flex gap-[113.5px] mb-6 flex-wrap mt-[200px] md:mt-[150px] lg:mt-[100px] xl:mt-0'>
+        <div className='flex gap-[113.5px] mb-6 flex-wrap mt-[300px] md:mt-[150px] lg:mt-[100px] xl:mt-0'>
             <div className='flex flex-col gap-[25px] w-[248px]'>
             <h1 className='text-[32px] font-extrabold tracking-tight'>SHOP.CO</h1>
             <p className='font-normal text-[14px]'>We have clothes that suits your style and which you&apos;re proud to wear. From women to men.</p>

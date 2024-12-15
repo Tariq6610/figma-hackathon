@@ -13,7 +13,7 @@ import {
 const Page = () => {
   return (
     <>
-<div className='max-w-[1440px] 2xl:px-[100px] xl:px-[50px] px-[30px]'>
+<div className='max-w-[1440px] 2xl:px-[100px] xl:px-[50px] px-[20px]'>
 <div>
     <ul className='flex '>
         <li className='flex gap-[4px] object-cover'>Home <img className='object-contain' src="home/bracket.png" alt="" /></li>
@@ -114,16 +114,16 @@ const Page = () => {
             <p>Gym</p>
             <img src="/home/bracket.png" alt="" />
           </div>
-          <button className='w-[247px] h-[48px] rounded-[62px] flex justify-center items-center text-white'>
+          <button className='w-[247px] h-[48px] rounded-[62px] bg-black flex justify-center items-center text-white'>
             Apply Filter
           </button>
         </div>
       </div>
     <div className=' flex-1  h-full'>
       <div className='mb-[16px] flex items-center justify-between'>
-        <div className='flex gap-[10px] items-center'>
-        <h1 className='font-bold text-[32px]'>Casual</h1>
-        <p className='md:hidden text-xs self-end'>
+        <div className='flex gap-[5px] items-center'>
+        <h1 className='font-bold md:text-[32px] text-[24px]'>Casual</h1>
+        <p className='md:hidden text-[10px] self-end'>
           Showing 1-10 of 100 Products
           </p>
         </div>
@@ -139,16 +139,16 @@ const Page = () => {
           </div>
         </div>
         <div className='block xl:hidden'>
-              <Sheet>
-                <SheetTrigger asChild>
-                <img className='md:hidden block object-contain' src="/home/filter.png" alt="" />
-                </SheetTrigger>
-                <SheetContent side='right'>
-                  <SheetHeader>
-                    <SheetTitle></SheetTitle>
-                    <SheetDescription>
-          <div className='w-full px-[24px] py-[20px] h-[1220px] overflow-y-scroll flex flex-col gap-[24px]'>
-        <div className='flex justify-between'>
+    <Sheet>
+      <SheetTrigger asChild>
+      <img className='md:hidden block object-contain' src="/home/filter.png" alt="" />
+      </SheetTrigger>
+      <SheetContent side='right'>
+        <SheetHeader>
+          <SheetTitle></SheetTitle>
+          <SheetDescription>
+          <div className='w-full px-[24px] py-[20px] h-[600px] overflow-y-scroll flex flex-col gap-[24px]'>
+          <div className='flex justify-between'>
           <h1 className='font-bold text-[20px]'>Filters</h1>
           <img src="/home/filter.png" alt="" />
         </div>
@@ -239,16 +239,16 @@ const Page = () => {
             <p>Gym</p>
             <img src="/home/bracket.png" alt="" />
           </div>
-          <button className='w-[247px] h-[48px] rounded-[62px] flex justify-center items-center text-white'>
+           <button className='w-full h-[48px] rounded-[62px] bg-black flex justify-center items-center text-white'>
             Apply Filter
-          </button>
-        </div>
-      </div>
-                    </SheetDescription>
-                  </SheetHeader>
-                </SheetContent>
-              </Sheet>
+           </button>
             </div>
+           </div>
+            </SheetDescription>
+          </SheetHeader>
+        </SheetContent>
+      </Sheet>
+      </div>
        
       </div>
       <div className='flex gap-x-[15px] gap-y-[36px] flex-wrap'>

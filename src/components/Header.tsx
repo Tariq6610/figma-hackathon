@@ -16,8 +16,8 @@ const Header = () => {
       <div className="bg-black mb-[40px]">
         <nav className="flex max-w-[1440px] mx-auto 2xl:px-[100px] xl:px-[100px] px-[30px] justify-end xl:gap-[231px] gap-[100px] h-[48px]  text-white items-center">
           <div className="flex  gap-[8px]">
-            <p>Sign up and get 20% off to your first order. </p>
-            <button className="font-bold underline">Sign Up Now</button>
+            <p className='md:text-[16px] text-[10px]'>Sign up and get 20% off to your first order. </p>
+            <button className="font-bold md:text-[16px] text-[10px] underline">Sign Up Now</button>
           </div>
           <div className='hidden md:block'>
             <button>X</button>
@@ -87,7 +87,7 @@ const Header = () => {
               <li className="w-[90px]">New Arrivals</li>
               <li>Brands</li>
             </ul>
-            <div className="flex gap-[14px] xl:gap-[24px] items-center ">
+            <div className="sm:flex hidden gap-[14px] xl:gap-[24px] items-center ">
               <div className="flex items-center">
                 <img
                   className="object-contain min-w-[24px]"

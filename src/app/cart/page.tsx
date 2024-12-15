@@ -6,16 +6,15 @@ const page = () => {
         <ul className='flex'>
             <li className='flex gap-[4px]'>Home <img className='object-contain' src="/home/bracket.png" alt="" /></li>
             <li className='flex gap-[4px]'>Cart <img className='object-contain' src="/home/bracket.png" alt="" /></li>
-
         </ul>
         <div>
-            <h1 className='font-bold text-[40px]'>Your Cart</h1>
+            <h1 className='font-bold md:text-[40px] text-[30px]'>Your Cart</h1>
         </div>
-        <div className='flex'>
-            <div className='w-[715px] flex flex-col gap-[24px] h-[508px] py-[20px] px-[24px]'>
-                <div className='flex'>
-                    <div className='w-[124px] h-[24px]'>
-                        <img src="/recomended/Frame 33.png" alt="" />
+        <div className='flex xl:flex-row flex-col'>
+            <div className='xl:w-3/5 w-full flex flex-col  gap-[24px] py-[20px] px-[24px]'>
+                <div className='flex sm:flex-row flex-col'>
+                    <div className='sm:w-[124px] sm:h-[24px] w-auto h-auto '>
+                        <img className='object-contain' src="/recomended/Frame 33.png" alt="" />
                     </div>
                     <div className='flex-1 flex flex-col justify-between h-[124px]'>
                         <div className='flex items-center justify-between'>
@@ -37,8 +36,8 @@ const page = () => {
                     </div>
                 </div>
                 <hr />
-                <div className='flex'>
-                    <div className='w-[124px] h-[24px]'>
+                <div className='flex sm:flex-row flex-col'>
+                    <div className='sm:w-[124px] sm:h-[24px] w-auto h-auto '>
                         <img src="/products/Frame 34.png" alt="" />
                     </div>
                     <div className='flex-1 flex flex-col justify-between h-[124px]'>
@@ -61,11 +60,11 @@ const page = () => {
                     </div>
                 </div>
                 <hr />
-                <div className='flex'>
-                    <div className='w-[124px] h-[24px]'>
+                <div className='flex sm:flex-row flex-col'>
+                    <div className='sm:w-[124px] sm:h-[24px] w-auto h-auto '>
                         <img src="/products/Frame 33.png" alt="" />
                     </div>
-                    <div className='flex-1 flex flex-col justify-between h-[124px]'>
+                    <div className='sm:flex-1 flex flex-col justify-between h-[124px]'>
                         <div className='flex items-center justify-between'>
                             <h1 className='font-bold text-[20px]'>SKINNY FIT JEANS</h1>
                             <img src="/home/delete.png" alt="" />
@@ -104,11 +103,11 @@ const page = () => {
                     <p>Total</p>
                     <p className='font-bold text-[20px]'>$467</p>
                 </div>
-                <div className='flex justify-between'>
+                <div className='flex flex-wrap gap-y-2 justify-between'>
                     <input type="text" placeholder='Add Promo Code' name="" id="" />
                     <button className='w-[119px] h-[48px] rounded-[62px] flex justify-center items-center text-white bg-black'>Apply</button>
                 </div>
-                <button className='w-[457px] h-[60px] bg-black flex justify-center items-center text-white rounded-[62px]'>Go to Checkout</button>
+                <button className='md:w-[457px] w-full h-[60px] bg-black flex justify-center items-center text-white rounded-[30px] sm:rounded-[62px]'>Go to Checkout</button>
             </div>
         </div>
     </div>
