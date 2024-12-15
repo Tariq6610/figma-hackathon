@@ -87,7 +87,7 @@ const Header = () => {
               <li className="w-[90px]">New Arrivals</li>
               <li>Brands</li>
             </ul>
-            <div className="flex gap-[24px] xl:gap-[24px] items-center ">
+            <div className="flex gap-[14px] xl:gap-[24px] items-center ">
               <div className="flex items-center">
                 <img
                   className="object-contain min-w-[24px]"
@@ -102,7 +102,7 @@ const Header = () => {
                   id=""
                 />
               </div>
-              <div className="flex gap-[14px] w-[62px]">
+              <div className="flex md:gap-[14px] gap-2 w-[62px]">
                 <Link href="/cart">
                   <img className='object-contain min-w-[24px]' src="home/cart.png" alt="" />
                 </Link>
