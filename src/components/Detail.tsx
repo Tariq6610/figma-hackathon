@@ -13,7 +13,7 @@ const Detail = ({id} : Props) => {
   const productClicked = allProducts.find((product) => (product.id === cardId))!;  
 
   return (
-    <div className='max-w-[1440px] mx-auto 2xl:px-[100px] xl:px-[50px] px-[30px]'>
+    <div className='max-w-[1440px] mx-auto 2xl:px-[100px] xl:px-[50px] px-[16px]'>
 
     <div>
         <ul className='flex '>
@@ -181,7 +181,7 @@ const Detail = ({id} : Props) => {
     </div>
       <div className='flex justify-center'><button className='w-[230px] h-[52px] flex justify-center items-center border'>Load More Reviews</button></div>
       <>
-    <div className=' max-w-[1440px] 2xl:px-[100px] flex flex-col items-center gap-[55px] xl:px-[50px] px-[30px] mt-[72px]'>
+    <div className=' max-w-[1440px] 2xl:px-[100px] flex flex-col items-center gap-[55px] xl:px-[50px] px-[16px] mt-[72px]'>
         <h1 className='font-bold xl:text-[48px] lg:text-[38px] text-[28px] tracking-tight'> YOU MIGHT ALSO LIKE</h1>
         <div className='flex gap-[20px] w-full overflow-x-scroll'>
             {recomendedProducts.map((product) => (

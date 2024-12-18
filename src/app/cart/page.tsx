@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='max-w-[1440px] 2xl:px-[100px] flex flex-col gap-[24px] xl:px-[50px] px-[30px]'>
+    <div className='max-w-[1440px] 2xl:px-[100px] flex flex-col gap-[24px] xl:px-[50px] px-[16px]'>
         <ul className='flex'>
             <li className='flex gap-[4px]'>Home <img className='object-contain' src="/home/bracket.png" alt="" /></li>
             <li className='flex gap-[4px]'>Cart <img className='object-contain' src="/home/bracket.png" alt="" /></li>

@@ -15,9 +15,10 @@ const ProductCard = ({name, percentOff = false, newPrice, oldPrice = false, star
 
     return (
    <>
-    <div className='w-[270px] min-h-[350px] group shadow-lg '>
-        <div className='w-[270px] bg-stone-200 mb-[16px] relative h-[250px] flex justify-center items-center'>
-            <img src={image} alt="product image" />
+    <div className='md:w-[270px] w-[198px] min-h-[350px] group shadow-lg '>
+        <div className='w-full bg-stone-200 mb-[16px] relative h-[250px] flex justify-center items-center'>
+            <img className="object-contain w-full h-full"
+            src={image} alt="product image" />
             {percentOff ? 
             <div className='w-[55px] h-[26px] rounded flex justify-center items-center bg-primary absolute top-[12px] left-[12px] text-white'>{percentOff}</div>
             : ""
@@ -29,8 +30,8 @@ const ProductCard = ({name, percentOff = false, newPrice, oldPrice = false, star
           <Link href={`/product/${id}`}><button className="w-full h-[41px] bg-black text-white flex justify-center items-center">Add To Cart</button></Link>
             </div>
         </div>
-        <div className='flex flex-col gap-[8px]'>
-            <p className="font-bold text-[18px]">{name}</p>
+        <div className='flex justify-end flex-col gap-[8px]'>
+            <p className="font-bold text-[18px] min-h-[54px] line-clamp-2 xl:min-h-0 xl:h-fit">{name}</p>
             <div className='w-[140px] h-[20px] flex gap-[8px]'>
                 <img className='object-contain' src={stars > 0 ? '/home/fullStar.png' : '/home/noStar.png'} alt="Star" />
                 <img className='object-contain' src={stars > 1 ? '/home/fullStar.png' : '/home/noStar.png'} alt="Star" />

@@ -5,12 +5,12 @@ const Hero = () => {
   return (
     <>
     <div className=' flex bg-[#F2F0F1] flex-wrap mx-auto gap-y-[30px] justify-center xl:justify-between items-center min-h-[663px] max-w-[1440px] -z-20 '>
-        <div className='w-[600px] 2xl:px-[100px] xl:px-[50px] px-[30px] flex flex-col justify-center gap-[20px] '>
-         <h1 className='font-extrabold tracking-tight xl:text-[50px] md:text-[42px] text-[36px] leading-[45px]'>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+        <div className='w-[600px] 2xl:px-[100px] xl:px-[50px] px-[16px] flex flex-col justify-center gap-[20px] '>
+         <h1 className='font-extrabold tracking-tight xl:text-[50px] md:text-[42px] text-[28px] leading-8'>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
          <p className='leading-[16px] text-sm'>Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
         <Link href='/category'><button className='h-[52px] rounded-[62px] md:w-1/2 w-full xl:w-[180px] bg-black text-white'>Shop Now</button></Link>
         </div>
-        <div className='md:hidden px-[30px] h-[52px] mt-[20px] gap-x-[30px] flex justify-center items-center w-full'>
+        <div className='md:hidden px-[16px] h-[52px] mt-[20px] gap-x-[30px] flex justify-center items-center w-full'>
           <div  className='flex flex-col '>
               <p className='font-bold text-[24px]'>200+</p>
               <p>International Brands</p>

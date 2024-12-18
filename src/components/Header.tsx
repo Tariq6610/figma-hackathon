@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header className="flex flex-col w-full">
       <div className="bg-black mb-[40px]">
-        <nav className="flex max-w-[1440px] mx-auto 2xl:px-[100px] xl:px-[100px] px-[30px] justify-end xl:gap-[231px] gap-[100px] h-[48px]  text-white items-center">
+        <nav className="flex max-w-[1440px] mx-auto 2xl:px-[100px] xl:px-[100px] px-[16px] justify-end xl:gap-[231px] gap-[100px] h-[48px]  text-white items-center">
           <div className="flex  gap-[8px]">
             <p className='md:text-[16px] text-[10px]'>Sign up and get 20% off to your first order. </p>
             <button className="font-bold md:text-[16px] text-[10px] underline">Sign Up Now</button>
@@ -25,7 +25,7 @@ const Header = () => {
         </nav>
       </div>
       <div className="w-full">
-        <nav className="h-[38px] flex items-center mx-auto justify-between max-w-[1440px] 2xl:px-[100px] xl:px-[50px] px-[30px]  mb-[24px]">
+        <nav className="h-[38px] flex items-center mx-auto justify-between max-w-[1440px] 2xl:px-[100px] xl:px-[50px] px-[16px]  mb-[24px]">
           <div className="flex  gap-[40px] w-full justify-between  items-center">
             <div className='flex gap-[16px] items-center'>
             <div className='block xl:hidden'>

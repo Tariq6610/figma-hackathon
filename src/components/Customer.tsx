@@ -1,9 +1,9 @@
 
 const Customer = () => {
   return (
-    <div className="max-w-[1440px] 2xl:px-[100px] mx-auto xl:px-[50px] px-[30px] mt-[80px] mb-[80px]">
+    <div className="max-w-[1440px] 2xl:px-[100px] mx-auto xl:px-[50px] px-[16px] mt-[80px] mb-[80px]">
       <div className="flex justify-between items-center mb-[40px]">
-        <h1 className="font-bold text-[48px] tracking-tight">
+        <h1 className="font-bold md:text-[48px] text-[28px] leading-8 tracking-tight">
           OUR HAPPY CUSTOMERS
         </h1>
         <div>
@@ -11,7 +11,7 @@ const Customer = () => {
         </div>
       </div>
       <div className="flex gap-[20px] overflow-x-scroll overflow-y-hidden">
-        <div className="w-[400px] border flex flex-col gap-[15px] h-[240px] px-[32px] py-[28px]">
+        <div className="w-[400px] flex-shrink-0 border flex flex-col gap-[15px] h-[240px] px-[32px] py-[28px]">
           <div>
             <img className="object-contain" src="/Frame 10.png" alt="" />
           </div>
@@ -27,7 +27,7 @@ const Customer = () => {
             </p>
           </div>
         </div>
-        <div className="w-[400px] border flex flex-col gap-[15px] h-[240px] px-[32px] py-[28px]">
+        <div className="w-[400px] flex-shrink-0 border flex flex-col gap-[15px] h-[240px] px-[32px] py-[28px]">
           <div>
             <img className="object-contain" src="/Frame 10.png" alt="" />
           </div>
@@ -41,7 +41,7 @@ const Customer = () => {
             </p>
           </div>
         </div>
-        <div className="w-[400px] border flex flex-col gap-[15px] h-[240px] px-[32px] py-[28px]">
+        <div className="w-[400px] flex-shrink-0 border flex flex-col gap-[15px] h-[240px] px-[32px] py-[28px]">
           <div>
             <img className="object-contain" src="/Frame 10.png" alt="" />
           </div>

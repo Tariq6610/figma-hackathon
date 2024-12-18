@@ -13,7 +13,7 @@ import {
 const Page = () => {
   return (
     <>
-<div className='max-w-[1440px] 2xl:px-[100px] xl:px-[50px] px-[20px]'>
+<div className='max-w-[1440px] 2xl:px-[100px] xl:px-[50px] px-[16px]'>
 <div>
     <ul className='flex '>
         <li className='flex gap-[4px] object-cover'>Home <img className='object-contain' src="home/bracket.png" alt="" /></li>
@@ -251,7 +251,7 @@ const Page = () => {
       </div>
        
       </div>
-      <div className='flex gap-x-[15px] gap-y-[36px] flex-wrap'>
+      <div className='flex gap-x-[15px] gap-y-[36px] justify-center flex-wrap'>
         {allProducts.slice(0,9).map((product) => (
            <ProductCard key={product.id} name={product.name} percentOff={product.percentOff} newPrice={product.newPrice} oldPrice={product.oldPrice} stars={product.stars} rating={product.rating} image={product.image} id={product.id}/>
         ))}
