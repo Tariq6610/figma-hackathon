@@ -251,7 +251,7 @@ const Page = () => {
       </div>
        
       </div>
-      <div className='flex gap-x-[15px] gap-y-[36px] justify-center flex-wrap'>
+      <div className='flex gap-x-[14px] gap-y-[36px] justify-center flex-wrap'>
         {allProducts.slice(0,9).map((product) => (
            <ProductCard key={product.id} name={product.name} percentOff={product.percentOff} newPrice={product.newPrice} oldPrice={product.oldPrice} stars={product.stars} rating={product.rating} image={product.image} id={product.id}/>
         ))}

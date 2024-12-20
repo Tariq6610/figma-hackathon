@@ -6,14 +6,14 @@ const Footer = () => {
         <div className=' max-w-[1440px] flex flex-col 2xl:px-[100px] xl:px-[50px] px-[16px]'>
         <div className='absolute flex-wrap top-[-80px] left-1/2 -translate-x-1/2 w-[93%] max-w-[1150px] min-h-[180px] text-white rounded-[20px] bg-black flex items-center justify-center lg:justify-between py-[36px] gap-y-4 px-[16px] xl:px-[64px]'>
             <div className='md:w-1/2 w-full'>
-                <h1 className='font-bold md:text-[48px] text-[28px] leading-8 tracking-tight'>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
+                <h1 className='font-bold md:text-[48px] text-[28px] leading-[34px] md:leading-[46px] tracking-tight'>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h1>
             </div>
             <div className='flex flex-col gap-[14px] w-full md:w-fit'>
                 <input className='px-[20px] h-[48px] md:w-[349px] w-full rounded-[62px] outline-none border-none' placeholder='Enter Your email address' type="text" name="" id="" />
                 <button className='h-[48px] md:w-[349px] rounded-[62px] border-none bg-white text-black'>Subscribe to Newsletter</button>
             </div>
         </div>
-        <div className='flex gap-[113.5px] mb-6 flex-wrap mt-[300px] md:mt-[150px] lg:mt-[100px] xl:mt-0'>
+        <div className='flex gap-[113.5px] mb-6 flex-wrap mt-[150px] md:mt-[200px] lg:mt-[80px] xl:mt-[50px]'>
             <div className='flex flex-col gap-[25px] w-[248px]'>
             <h1 className='text-[32px] font-extrabold tracking-tight'>SHOP.CO</h1>
             <p className='font-normal text-[14px]'>We have clothes that suits your style and which you&apos;re proud to wear. From women to men.</p>
