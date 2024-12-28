@@ -25,7 +25,7 @@ const Header = () => {
         </nav>
       </div>
       <div className="w-full">
-        <nav className="h-[38px] flex items-center mx-auto justify-between max-w-[1440px] 2xl:px-[100px] xl:px-[50px] px-[16px]  mb-[24px]">
+        <nav className="md:h-[38px] h-[20px] flex items-center mx-auto justify-between max-w-[1440px] 2xl:px-[100px] xl:px-[50px] px-[16px]  mb-[24px]">
           <div className="flex  gap-[40px] w-full justify-between  items-center">
             <div className='flex gap-[16px] items-center'>
             <div className='block xl:hidden'>

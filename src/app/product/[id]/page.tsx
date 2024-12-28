@@ -11,8 +11,8 @@ const page = ({params} : Props) => {
   const id = Number(params.id)
   
   return (
-  <Detail id={id} />
+  <Detail id={id}/>
   )
 }
 
-export default page
+export default page;
